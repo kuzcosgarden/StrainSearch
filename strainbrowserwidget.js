@@ -370,4 +370,3 @@ function OutputUserComments(comm) {
 		var acommp = document.createElement('p'); acommp.className = 'commPeh'; acommp.innerHTML = '<span class="CommUsername">' + comm.last3[oneComm].user + '</span>: ' + comm.last3[oneComm].text; document.getElementById('SFSBstraininfo').appendChild(acommp);
 		}
 	}
-  
