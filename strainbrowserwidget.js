@@ -1,4 +1,3 @@
-<script>
 // Create emty straininfo object
 function MyClass() {};
 var strainInfo = new MyClass();
@@ -371,4 +370,4 @@ function OutputUserComments(comm) {
 		var acommp = document.createElement('p'); acommp.className = 'commPeh'; acommp.innerHTML = '<span class="CommUsername">' + comm.last3[oneComm].user + '</span>: ' + comm.last3[oneComm].text; document.getElementById('SFSBstraininfo').appendChild(acommp);
 		}
 	}
-  </script>
+  
